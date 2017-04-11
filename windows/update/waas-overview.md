@@ -101,8 +101,6 @@ Organizations typically prefer to have a testing cycle before broadly deploying 
 >[!NOTE]
 >Organizations can electively delay CB and CBB updates into as many phases as they wish by using one of the servicing tools mentioned in the section Servicing tools.
 
-Basically, CBB is a configuration state, meaning that if a computer has the **Defer Updates and Upgrades** flag enabled—either through Group Policy, a mobile device management product like Microsoft Intune, or manually on the client—it’s considered to be in the CBB servicing branch. The benefit of tying this servicing model and CB to a configuration state rather than a SKU is that they are easily interchangeable. If an organization accidentally selects CBB on a machine that doesn’t need delayed updates, it’s simple to change it back. 
-
 ### Long-term Servicing Branch
 
 Specialized systems—such as PCs that control medical equipment, point-of-sale systems, and ATMs—often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. It’s more important that these devices be kept as stable and secure as possible than up to date with user interface changes. The LTSB servicing model prevents Windows 10 Enterprise LTSB devices from receiving the usual feature updates and provides only quality updates to ensure that device security stays up to date. With this in mind, quality updates are still immediately available to Windows 10 Enterprise LTSB clients, but customers can choose to defer them by using one of the servicing tools mentioned in the section Servicing tools.
